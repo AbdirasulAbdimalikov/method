@@ -2,10 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int sum = calculateSum(300,200, 700);
-        System.out.println(sum);
+        int maxNumber = max(5000, 7000);
+        System.out.println(maxNumber);
     }
-    public static int calculateSum (int a, int b, int c) {
-        return a + b + c;
+        public static int max ( int a, int b){
+            return a >= b ? a : b;
+        }
     }
-}
